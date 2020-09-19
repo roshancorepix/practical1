@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:fitsSystemWindows="true"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/baloo_thambi"
+        android:text="@string/p"
+        android:textColor="@color/colorAccent"
+        android:textSize="150sp" />
+
+    <View
+        android:id="@+id/v1"
+        android:layout_width="20dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="250dp"
+        android:background="@color/colorAccent" />
+
+    <View
+        android:id="@+id/v2"
+        android:layout_width="20dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/v1"
+        android:background="@color/colorAccent" />
+
+    <View
+        android:id="@+id/v3"
+        android:layout_width="20dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/v2"
+        android:background="@color/colorAccent" />
+
+    <View
+        android:id="@+id/v4"
+        android:layout_width="20dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/v3"
+        android:background="@color/colorAccent" />
+
+    <View
+        android:id="@+id/v5"
+        android:layout_width="20dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/v4"
+        android:background="@color/colorAccent" />
+</RelativeLayout>
